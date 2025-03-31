@@ -9,20 +9,6 @@
 
 struct User;  // declaration instead of include
 
-/**
-8. *Zachęcam jeszcze do implementacji następujących metod:
-   1. `static std::string default_text_file_encoding()` - domyślny system kodowania plików tekstowych
-   2. `static std::string end_of_line()` - znak/znaki na końcu każdej linii
-   3. `constexpr static bool is_path_case_sensitive()` - czy w ścieżkach wielkość znaków ma znaczenie
-   4. `constexpr static char path_separator()` - jaki separator występuje w ścieżce do pliku lub katalogu
-   5. `static std::string shortcut_to_send_end_of_file_to_program()` - jakim skrótem klawiszowym wysłać do programu EOF - end of file
-   6. `static std::pair<std::string, std::string> user_login_information()` - ma to zwrócić ścieżki do plików `/etc/passwd` i `/etc/shadow`
-      - co to są za pliki?
-   7. `static std::string users_directory()` - ma zwrócić domyślną ścieżkę, gdzie tworzone są katalogi użytkowników
-   - **Mają one pomóc w lepszym zrozumieniu istotnych, z punktu widzenia programowania, różnic między systemami.**
-9. Jeśli zrobiłem gdzieś błąd proszę o zgłoszenie. Pierwsza osoba z roku, która zgłosi dany błąd ma plusa!
-**/
-
 class Linux
 {
     std::string distribution_="Ubuntu";
