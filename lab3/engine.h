@@ -14,15 +14,6 @@ class Enemy;
 
 Position generateNewEnemyPosition(int width, int height);
 
-/** Proszę o zaimplementowanie klasy `Engine`, która będzie zarządzać obiektami, oraz będzie interfejsem do komunikacji z GUI.
- *  Szczegółowy opis poszczególnych metod znajduje się nad metodami.
- *  Nie są napisane testy dla całej klasy, więc możliwe jest przejście wszystkich testów, ale gra nie będzie działać.
- *  Można otrzymać punkty z aktywności za te zajęcia za uruchomienie gry i pokazanie mi (o ile nie ma ktoś już maksa z aktywności)
- */
-
-
-
-
 class Engine
 {
 public:
